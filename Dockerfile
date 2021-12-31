@@ -9,4 +9,5 @@ USER cubemap
 
 EXPOSE 9094
 
-ENTRYPOINT '/usr/bin/cubemap /etc/cubemap.config'
+ENTRYPOINT ["/usr/bin/cubemap"]
+CMD ["/etc/cubemap/config"]
